@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aeromint Studio</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+<body class="main_body">
+    <div class="wrapper">
+        <!-- Preloader -->
+        <div id="preloader" class="preloader">
+            <div class="loader"></div>
+        </div>
+        <!-- Scroll top -->
+        <a href="#poster" class="scroll-top" hidden><i class="fas fa-chevron-up"></i></a>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__row">
+                    <div class="header__logo">
+                        <a href="#poster">
+                            <img src="images/logo.png" alt="Logo" class="logo-img">
+                        </a>
+                    </div>
+                    <div class="header__navbar">
+                        <ul class="navbar-wrap">
+                            <li class="navbar-item">
+                                <a href="#about" class="navbar-link">О Нас</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#classes" class="navbar-link">Группы</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#trainers" class="navbar-link">Наши тренера</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a href="#contacts" class="navbar-link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="header-burger">
+            <div class="container">
+                <div class="header-burger__row">
+                    <div class="header-burger__logo">
+                        <div>
+                            <img src="images/logo.png" alt="Logo" class="logo-img">
+                        </div>
+                    </div>
+                    <div class="header-burger__wrap">
+                        <input type="checkbox" id="check-menu">
+                        <label for="check-menu" id="check-label"></label>
+                        <div class="burger-line first"></div>
+                        <div class="burger-line second"></div>
+                        <div class="burger-line third"></div>
+                        <div class="burger-line fourth"></div>
+                        <nav class="header-burger__menu main-menu">
+                            <a href="#about" class="navbar-link">О Нас</a>
+                            <a href="#classes" class="navbar-link">Группы</a>
+                            <a href="#trainers" class="navbar-link">Наши тренера</a>
+                            <a href="#contacts" class="navbar-link">Контакты</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Poster -->
+        <section class="poster" id="poster">
+            <div class="poster__gradient">
+                <div class="gradient gradient-left"></div>
+                <div class="gradient gradient-right"></div>
+            </div>
+            <div class="poster__scene">
+                <div class="container">
+                    <div class="poster__row">
+                        <div class="poster__elements wow fadeIn" data-wow-delay="2.8s">
+                            <div class="poster__elements-1"></div>
+                            <div class="poster__elements-2">+</div>
+                            <div class="poster__elements-3">+</div>
+                            <div class="poster__elements-4"></div>
+                            <div class="poster__elements-5"></div>
+                            <div class="poster__elements-6">
+                                <svg x="0px" y="0px" width="174px" height="20px" viewBox="0 0 174 20">
+                                    <polyline points="2,2 23.2,18 44.5,2 65.7,18 87,2 108.2,18 129.5,2 150.7,18 172,2">
+                                    </polyline>
+                                </svg>
+                            </div>
+                            <div class="poster__elements-7"></div>
+                            <div class="poster__elements-8"></div>
+                            <div class="poster__elements-9"></div>
+                            <div class="poster__elements-10"></div>
+                            <div class="poster__elements-11">
+                                <svg x="0px" y="0px" width="196px" height="23px" viewBox="0 0 196 23">
+                                    <polyline
+                                        points="2,2.1 26,20.9 50,2.1 74,20.9 98,2.1 122,20.9 146,2.1 170,20.9 194,2.1">
+                                    </polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="poster__figure">
+                            <div class="poster__img wow fadeInLeft" data-wow-delay="1.6s">
+                                <img src="images/poster-figure.png" alt="poster-girl">
+                            </div>
+                            <div class="poster__letters">
+                                <span class="wow fadeInRight" data-wow-delay="1s">D
+                                </span>
+                                <span class="wow fadeInRight" data-wow-delay="1.3s">a
+                                </span>
+                                <span class="wow fadeInRight" data-wow-delay="1.6s">n
+                                </span>
+                                <span class="wow fadeInRight" data-wow-delay="1.9s">c
+                                </span>
+                                <span class="wow fadeInRight" data-wow-delay="2.2s">e
+                                </span>
+                            </div>
+                        </div>
+                        <div class="poster__social">
+                            <a href="#" class="poster__social-item">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="poster__social-item">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="#" class="poster__social-item">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="poster__waypoint"><a href="#about">Прокрутить вниз</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+        <!-- About -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__row">
+                    <div class="about__text">
+                        <div class="about__text-subtitle wow fadeInLeft">.01 О Нас<span>01.</span></div>
+                        <div class="about__text-title text-title wow fadeInLeft" data-wow-delay=".2s">Студия танцев #1.
+                        </div>
+                        <div class="about__text-description text-description wow fadeInLeft" data-wow-delay=".4s">
+                            Aeromint Studio -
+                            танцевальная школа, основанная в 2010 году. Мы стремимся дать всем ученикам понимание как
+                            техники танцев, так и хореографии, чтобы подготовить их к профессиональному уровню.
+                        </div>
+                        <a href="#contacts" class="button classes-btn wow fadeInLeft" data-wow-delay=".4s">Подробнее</a>
+                    </div>
+                    <div class="about__figure">
+                        <div class="about__figure-elements">
+                            <div class="about__figure-rectangle wow fadeInRight"></div>
+                            <div class="about__figure-frame wow fadeInRight" data-wow-delay=".2s" data-wow-delay=".2s">
+                            </div>
+                        </div>
+                        <div class="about__figure-image wow fadeInRight" data-wow-delay=".4s">
+                            <img src="images/aboutUs-img-1.png" alt="figure">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Classes -->
+        <section class="classes-1" id="classes">
+            <div class="container">
+                <div class="classes-1__row">
+                    <div class="classes-1__figure wow fadeInLeft" data-wow-delay=".2s">
+                        <img src="images/aboutUs-img-2.png" alt="figure">
+                    </div>
+                    <div class="classes-1__text">
+                        <div class="classes-1__text-title text-title wow fadeInLeft" data-wow-delay=".2s">
+                            <span class="first-letter first-letter-size">Б</span>алет
+                        </div>
+                        <div class="classes-1__text-description text-description wow fadeInRight" data-wow-delay=".4s">
+                            Наши балетные классы подходят для всех уровней опыта и являются великолепным способом
+                            развить силу, гибкость и
+                            координацию. В нашей школе танцев мы разработали тренировки для четырех уровней: начальный,
+                            средний, продвинутый и
+                            профессиональный.
+                        </div>
+                        <div class="classes-1__text-timetable text-timetable wow fadeInRight" data-wow-delay=".4s">
+                            <div class="text-timetable-list"><span>Понедельник – Вторник:</span> 8.00 - 12.00</div>
+                            <div class="text-timetable-list"><span>Среда – Четверг:</span> 10.00 - 14.00</div>
+                            <div class="text-timetable-list"><span>Пятница – Суббота:</span> 9.00 - 13.00</div>
+                        </div>
+                        <a href="#contacts" class="button classes-btn wow fadeInRight"
+                            data-wow-delay=".5s">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="classes-2">
+            <div class="container">
+                <div class="classes-2__row">
+                    <div class="classes-2__text">
+                        <div class="classes-2__text-title text-title wow fadeInRight" data-wow-delay=".2s">
+                            <span class="first-letter first-letter-size">Д</span>жаз-фанк
+                        </div>
+                        <div class="classes-2__text-description text-description wow fadeInLeft" data-wow-delay=".4s">
+                            Джаз-фанк – один из самых молодых, дерзких и коммерчески успешных студийных танцевальных
+                            стилей на
+                            планете. Ученики должны прийти с
+                            непредвзятым мнением и быть готовыми к испытаниям, одновременно хорошо проводить время.
+                            Занятие
+                            начинается с разминки, которая включает в себя кардио и базовые упражнения.
+                        </div>
+                        <div class="classes-2__text-timetable text-timetable wow fadeInLeft" data-wow-delay=".4s">
+                            <div class="text-timetable-list"><span>Понедельник – Вторник:</span> 12.00 - 17.00</div>
+                            <div class="text-timetable-list"><span>Среда – Четверг:</span> 10.00 - 15.00</div>
+                            <div class="text-timetable-list"><span>Пятница – Суббота:</span> 11.00 - 16.00</div>
+                        </div>
+                        <a href="#contacts" class="button classes-btn wow fadeInLeft" data-wow-delay=".5s">Подробнее</a>
+                    </div>
+                    <div class="classes-2__figure">
+                        <img src="images/aboutUs-img-3.png" alt="figure" class="wow fadeInRight" data-wow-delay=".2s">
+                        <div class="classes-2__figure-frame" class="wow fadeInRight" data-wow-delay=".2s"></div>
+                    </div>
+                </div>
+        </section>
+        <section class="classes-3">
+            <div class="container">
+                <div class="classes-3__row">
+                    <div class="classes-3__figure wow fadeInLeft" data-wow-delay=".2s">
+                        <img src="images/aboutUs-img-4.png" alt="figure">
+                        <div class="classes-3__figure-frame"></div>
+                    </div>
+                    <div class="classes-3__text">
+                        <div class="classes-3__text-title text-title wow fadeInLeft" data-wow-delay=".2s">
+                            <span class="first-letter first-letter-size">Х</span>ип<br>
+                            <div>хоп</div>
+                        </div>
+                        <div class="classes-3__text-description text-description wow fadeInRight" data-wow-delay=".4s">
+                            У нас есть уроки хип-хопа для танцоров всех уровней. Каждый инструктор предлагает свой
+                            уникальный стиль, поэтому, если
+                            вы ищете тренировку или интенсивную хореографию, мы уверены, что вы найдете занятие, которое
+                            вам понравится.
+                        </div>
+                        <div class="classes-3__text-timetable text-timetable wow fadeInRight" data-wow-delay=".4s">
+                            <div class="text-timetable-list"><span>Понедельник – Вторник:</span> 10.00 - 14.00</div>
+                            <div class="text-timetable-list"><span>Среда – Четверг:</span> 12.00 - 15.00</div>
+                            <div class="text-timetable-list"><span>Пятница – Суббота:</span> 11.00 - 13.30</div>
+                        </div>
+                        <a href="#contacts" class="button classes-btn wow fadeInRight"
+                            data-wow-delay=".5s">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="classes-4">
+            <div class="container">
+                <div class="classes-4__row">
+                    <div class="classes-4__text">
+                        <div class="classes-4__text-title text-title wow fadeInRight" data-wow-delay=".2s">
+                            <span class="first-letter first-letter-size">Б</span>рейк-данс
+                        </div>
+                        <div class="classes-4__text-description text-description wow fadeInLeft" data-wow-delay=".4s">
+                            Подойдет для учащихся всех уровней. Наш класс обучает первым шагам для освоения многих
+                            основных движений, охватывая такие основы, как раскачивание, силовые движения и заморозки.
+                            Разбивая упражнения и выполняя различные комбинации, студенты затем будут
+                            создавать свой собственный, индивидуальный стиль танца.
+                        </div>
+                        <div class="classes-4__text-timetable text-timetable wow fadeInLeft" data-wow-delay=".4s">
+                            <div class="text-timetable-list"><span>Понедельник – Вторник:</span> 9.30 - 11.45</div>
+                            <div class="text-timetable-list"><span>Среда – Четверг:</span> 12.15 - 13.45</div>
+                            <div class="text-timetable-list"><span>Пятница – Суббота:</span> 14.30 - 16.15</div>
+                        </div>
+                        <a href="#contacts" class="button classes-btn wow fadeInLeft" data-wow-delay=".5s">Подробнее</a>
+                    </div>
+                    <div class="classes-4__figure">
+                        <img src="images/aboutUs-img-5.png" alt="figure" class="wow fadeInRight" data-wow-delay=".2s">
+                        <div class="classes-4__figure-frame" class="wow fadeInRight" data-wow-delay=".3s"></div>
+                    </div>
+                </div>
+        </section>
+        <!-- Trainers -->
+        <section class="trainers" id="trainers">
+            <div class="container">
+                <div class="trainers__row">
+                    <div class="trainers__subtitle wow fadeInLeft">.02 Наши тренера<span>02.</span></div>
+                    <div class="trainers__counter wow fadeInRight" data-wow-delay=".2s">
+                        <div class="trainers__arrows trainers__arrows-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <span id="current">00</span>
+                        /
+                        <span id="total">00</span>
+                        <div class="trainers__arrows trainers__arrows-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="trainers__sliders-wrap">
+                        <div class="trainers__slider-text">
+                            <div class="trainers__slide-text">
+                                <div class="text-title" data-wow-delay=".2s">Мари</div>
+                                <div class="text-position" data-wow-delay=".2s">Основатель,
+                                    Ведущий Инструктор</div>
+                                <div class="text-description" data-wow-delay=".4s">
+                                    Мари основала Aeromint в 2010 году, чтобы создать уютную танцевальную
+                                    среду для всех тех, кто имеет страсть к танцу.
+                                    Она изучала балет, модерн,
+                                    а также обучалась
+                                    хип-хопу и джазу.
+                                </div>
+                                <a href="#contacts" class="button classes-btn" data-wow-delay=".5s">Подробнее</a>
+                            </div>
+                            <div class="trainers__slide-text">
+                                <div class="text-title">Алан</div>
+                                <div class="text-position">Инструктор по Джаз-Фанку</div>
+                                <div class="text-description">
+                                    Алан - танцует на протяжении всей жизни, мотивируясь страстью и любовью к
+                                    танцу. Он преподает джаз-фанк, балет и хип-хоп более 10 лет в составе студии
+                                    Aeromint.
+                                </div>
+                                <a href="#contacts" class="button classes-btn" data-wow-delay=".5s">Подробнее</a>
+                            </div>
+                            <div class="trainers__slide-text">
+                                <div class="text-title" data-wow-delay=".2s">КЕЙТ</div>
+                                <div class="text-position" data-wow-delay=".2s">Инструктор по
+                                    Брейк-Дансу</div>
+                                <div class="text-description" data-wow-delay=".4s">
+                                    Кейт - одна из наших лучших тренеров по брейк-дансу и хип-хопу. Она активно
+                                    выступала в турнирах
+                                    по брейк-дансу по всему миру и присоединилась к нашей команде инструкторов в
+                                    2012 году.
+                                </div>
+                                <a href="#contacts" class="button classes-btn" data-wow-delay=".5s">Подробнее</a>
+                            </div>
+                            <div class="trainers__slide-text">
+                                <div class="text-title" data-wow-delay=".2s">Филл</div>
+                                <div class="text-position" data-wow-delay=".2s">Инструктор по
+                                    Хип-Хопу</div>
+                                <div class="text-description" data-wow-delay=".4s">
+                                    Основная квалификация Филла - хип-хоп. Он является победителем нескольких
+                                    национальных
+                                    чемпионатов по хип-хопу. Он присоединился к Студии Аэроминт в 2013 году,
+                                    чтобы обучать подростков и детей.
+                                </div>
+                                <a href="#contacts" class="button classes-btn" data-wow-delay=".5s">Подробнее</a>
+                            </div>
+                            <div class="trainers__slide-text">
+                                <div class="text-title" data-wow-delay=".2s">Лиза</div>
+                                <div class="text-position" data-wow-delay=".2s">Инструктор по
+                                    балету</div>
+                                <div class="text-description" data-wow-delay=".4s">
+                                    Лиза - одна из самых молодых, но очень талантливых тренеров и танцоров в
+                                    нашей команде. С тех пор как несколько
+                                    лет назад присоединилась к нашей команде, она участвовала в многочисленных
+                                    танцевальных турнирах и преподавала балет.
+                                </div>
+                                <a href="#contacts" class="button classes-btn" data-wow-delay=".5s">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="trainers__slider-photo">
+                            <div class="trainers__slide-photo">
+                                <img src="images/trainer-img-1.jpg" alt="portfolio" data-wow-delay=".2s">
+                            </div>
+                            <div class="trainers__slide-photo">
+                                <img src="images/trainer-img-2.jpg" alt="portfolio" data-wow-delay=".2s">
+                            </div>
+                            <div class="trainers__slide-photo">
+                                <img src="images/trainer-img-3.jpg" alt="portfolio" data-wow-delay=".2s">
+                            </div>
+                            <div class="trainers__slide-photo">
+                                <img src="images/trainer-img-4.jpg" alt="portfolio" data-wow-delay=".2s">
+                            </div>
+                            <div class="trainers__slide-photo">
+                                <img src="images/trainer-img-5.jpg" alt="portfolio" data-wow-delay=".2s">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Discounts -->
+        <section class="discounts">
+            <div class="container">
+                <div class="discounts__row">
+                    <div class="discounts__figure wow fadeInLeft">
+                        <img src="images/discount-figure.png" alt="discount">
+                    </div>
+                    <div class="discounts__text wow fadeInRight">
+                        <div class="discounts__text-gradient">
+                            <div class="gradient-left">15%</div>
+                            <div class="gradient-right">
+                                <div class="gradient-right-top">скидка</div>
+                                <div class="gradient-right-bottom">на любой<br>курс</div>
+                            </div>
+                        </div>
+                        <div class="discounts__description text-description">Получите мгновенную скидку 15% на любой
+                            курс или программу, приобретенную в день посещения вводного урока.
+                        </div>
+                        <form class="discounts__form" method="POST" action="#">
+                            <input class="form-input contact-name" id="discounts__contact-name" type="text" name="name"
+                                placeholder="Ваше имя">
+                            <input class="form-input contact-phone" id="discounts__contact-phone" type="tel"
+                                name="phone" placeholder="Ваш телефон">
+                            <button class="button form-button" type="submit">
+                                <i class="icon fas fa-envelope"></i>
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Gallery -->
+        <section class="gallery">
+            <div class="gallery__row">
+                <div class="gallery__wrapper grid wow fadeInUp">
+                    <div class="grid-sizer"></div>
+                    <div class="grid-item"><img src="images/gallery-01-480x610.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-02-480x505.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-03-480x610.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-04-480x545.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-05-480x340.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-06-480x445.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-07-480x340.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-08-480x405.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-09-480x610.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-10-480x505.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-12-480x545.jpg" alt="gallery"></div>
+                    <div class="grid-item"><img src="images/gallery-14-480x445.jpg" alt="gallery"></div>
+                </div>
+            </div>
+        </section>
+        <!-- Reviews -->
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__row">
+                    <div class="reviews__title text-title wow fadeInLeft">Отзывы.</div>
+                    <div class="reviews__slider wow fadeInRight">
+                        <div class="reviews__slide">
+                            <div class="reviews__text">
+                                <i class="quote-icon fas fa-quote-left"></i>
+                                <div class="reviews__text-description text-description">Я пришла в Аэроминт в сентябре
+                                    2019
+                                    года и не могу поверить, что уже год обучаюсь здесь. Мне понравилось изучать новые
+                                    стили
+                                    танца, а так же в целом подходы к обучению.</div>
+                                <div class="reviews__text-persone">
+                                    <div class="reviews__text-name">РОУЗ МИТЧЕЛЛ</div>
+                                    <div class="reviews__text-role">Студентка</div>
+                                </div>
+                            </div>
+                            <div class="reviews__photo">
+                                <img src="images/reviews-1.jpg" alt="reviews__photo">
+                            </div>
+                        </div>
+                        <div class="reviews__slide">
+                            <div class="reviews__text">
+                                <i class="quote-icon fas fa-quote-left"></i>
+                                <div class="reviews__text-description text-description">Отличные занятие - это всегда
+                                    весело! Все танцоры в группы такие милые! Так рада, что снова занялась танцами
+                                    со Студией Аэроминт! Тут потрясающие педагоиг и хореографы!</div>
+                                <div class="reviews__text-persone">
+                                    <div class="reviews__text-name">ЛИЛИАН ГРЕЙ</div>
+                                    <div class="reviews__text-role">Студентка</div>
+                                </div>
+                            </div>
+                            <div class="reviews__photo">
+                                <img src="images/reviews-2.jpg" alt="reviews__photo">
+                            </div>
+                        </div>
+                        <div class="reviews__slide">
+                            <div class="reviews__text">
+                                <i class="quote-icon fas fa-quote-left"></i>
+
+                                <div class="reviews__text-description text-description">Я занимаюсь в Аэроминте чуть
+                                    больше года. За это время я во многом преуспел, и улучшил свои навыки настолько, что
+                                    и не мог себе представить. Все
+                                    очень приветливы, дружелюбны и всегда готовы помочь вам.</div>
+                                <div class="reviews__text-persone">
+                                    <div class="reviews__text-name">ДЖОН ПЕТЕРСОН</div>
+                                    <div class="reviews__text-role">Студент</div>
+                                </div>
+                            </div>
+                            <div class="reviews__photo">
+                                <img src="images/reviews-3.jpg" alt="reviews__photo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__controls">
+                        <div class="reviews__controls-arrows reviews__controls-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <div class="reviews__controls-arrows reviews__controls-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contacts -->
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts__row">
+                    <div class="contacts__text wow fadeInLeft" data-wow-delay=".1s">
+                        <div class="contacts__subtitle">.03 Контакты<span>03.</span></div>
+                        <div class="contacts__title">.aeromint</div>
+                        <div class="contacts__group">
+                            <div class="contacts-item">
+                                <a href="mailto:#">mail@demoaero.org</a>
+                            </div>
+                            <div class="contacts-item">
+                                <a href="tel:#">+38 067 777 21 41</a>
+                            </div>
+                            <div class="contacts-item">
+                                <a href="#">пр. Соборный, 147, Запорожье, 69061</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts__form-wrap wow fadeInRight" data-wow-delay=".3s">
+                        <div class="contacts__form-title">Хотите <br> попробовать?</div>
+                        <div class="contacts__form-subtitle">Запишитесь на бесплатное занятие.</div>
+                        <form class="contacts__form" method="POST" action="#">
+                            <input class="form-input contact-name" id="contacts__contact-name" type="text" name="name"
+                                placeholder="Ваше имя">
+                            <input class="form-input contact-phone" id="contacts__contact-phone" type="tel" name="phone"
+                                placeholder="Ваш телефон">
+                            <button class="button form-button" type="submit">
+                                Отправить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="contacts__map wow fadeInUp" data-wow-delay=".4s">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6369.104160037913!2d35.13046895733753!3d47.84194850518576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1602597907149!5m2!1sru!2sua"
+                    width="1903" height="590" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+        </section>
+        <!-- Modal -->
+        <div class=" modal">
+            <div class="modal__dialog">
+                <div class="modal__content"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Slick slider -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Masonry gallery -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <!-- Main script -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
