@@ -152,7 +152,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Slick slider (trainers block)
 
-  $(window).ready(function() {
+  $(window).on('load', function () {
     $('.trainers__slider-text').slick({
       arrows: false,
       fade: true,
