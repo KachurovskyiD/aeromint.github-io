@@ -4432,11 +4432,7 @@ header.sticky .header__logo a img {
     display: none;
   }
   .about__figure-frame {
-    border: 10px solid rgba(251, 169, 100, 0.05);
-    height: 400px;
-    width: 180px;
-    top: -25px;
-    left: 70px;
+    display: none;
   }
   .about__figure-image {
     top: 40px;
@@ -4500,11 +4496,7 @@ header.sticky .header__logo a img {
     display: none;
   }
   .about__figure-frame {
-    border: 10px solid rgba(251, 168, 100, 0.05);
-    height: 400px;
-    width: 180px;
-    top: -25px;
-    left: 70px;
+    display: none;
   }
   .about__figure-image {
     top: 20px;
