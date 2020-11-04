@@ -180,6 +180,7 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   // Forms
+  
   function forms() {
 
     const discountsForm = document.querySelector('.discounts__form'),
